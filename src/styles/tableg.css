@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tab-container {
+  width: 1415px;
+  background-color: rgb(243, 239, 239);
+  margin-left: -99px;
+  display: flex;
+  padding: 15px;
+}
+.tab-box {
+  display: flex;
+  margin-right: 50px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: inset 1px 1px 1px rgba(220, 213, 213),
+    inset -1px -1px 1px rgba(220, 213, 213);
+}
+.tab-t-text {
+  display: flex;
+  margin-left: 5px;
+  padding-bottom: 50px;
+}
+.t32000 {
+  font-size: 3em;
+  margin-right: 250px;
+}
+.t4 {
+  font-size: 3em;
+}
+.tab-f text {
+  margin-right: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.tab-sno {
+  background-color: rgb(243, 239, 239);
+  border-radius: 20px;
+  padding: 20px;
+}
+tr {
+  border-bottom: 2px solid rgb(220, 213, 213);
+}
+.tab-tr {
+  padding-bottom: 5px;
+}
+.tab-cname,
+.tab-amt {
+  padding: 20px;
+}
+.tab-amt {
+  text-align: end;
+}
+.Top-selling-courses {
+  padding-bottom: 25px;
+}
+.graph {
+  margin-left: 10px;
+  padding-left: 100px;
+}
+.g-text {
+  padding-bottom: 15px;
+}
+.graph-div-border {
+  display: flex;
+  width: 70px;
+  height: 5px;
+
+  border-bottom: 5px solid rgb(244, 193, 238);
+}
+.graph-icon {
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+  color: violet;
+}
+.grap-online {
+  display: inline;
+  margin-top: 12px;
+  margin-left: 4px;
+}
+
+.grp-amtsplit {
+  display: flex;
+}
+.mcon {
+  display: flex;
+}
+.grp1amt {
+  margin-right: 15px;
+}
+.vertical-line {
+  width: 550px;
+  height: 300px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  position: relative;
+  top: 15px;
+  right: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.mon {
+  width: 55px;
+  height: 100px;
+  background-color: #760e99db;
+}
+.tue {
+  background-color: #760e99db;
+  width: 55px;
+  height: 280px;
+}
+.wen {
+  background-color: #760e99db;
+  width: 55px;
+  height: 220px;
+}
+.thus {
+  background-color: #760e99db;
+  width: 55px;
+  height: 190px;
+}
+.fri {
+  background-color: #760e99db;
+  width: 55px;
+  height: 210px;
+}
+.sat {
+  background-color: #760e99db;
+  width: 55px;
+  height: 130px;
+}
+.sun {
+  background-color: #760e99db;
+  width: 55px;
+  height: 150px;
+}
+.ulli {
+  list-style: none;
+  position: relative;
+  top: 50px;
+  right: 140px;
+}
+.lii {
+  text-align: right;
+  padding-bottom: 40px;
+}
+.sep-for-ul-div {
+  display: flex;
+}

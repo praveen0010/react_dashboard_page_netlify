@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.re-container {
+  width: 1415px;
+  background-color: rgb(243, 239, 239);
+  margin-left: -99px;
+  display: flex;
+  padding: 30px;
+}
+.re-text {
+  display: flex;
+  margin-left: 10px;
+  padding-bottom: 40px;
+}
+
+.re-s-text {
+  margin-left: 850px;
+  color: rgb(141, 5, 175);
+}
+.table-div {
+  display: inline;
+}
+.re-icon-span {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(231, 206, 236);
+
+  border-radius: 50%;
+  padding: 7px;
+}
+.re-icon {
+  font-size: 3em;
+  padding-top: 5px;
+  margin-top: 10px;
+  background-color: rgb(245, 210, 244);
+  border-radius: 10px;
+  color: rgb(199, 96, 224);
+}
+
+.re-m-d {
+  display: flex;
+  margin-left: 50px;
+}
+
+.re-date-mon {
+  display: block;
+}
+.rer-table {
+  padding: 10px;
+}
+.rw-ro {
+  padding: 140px;
+}
+.re-name {
+  font-size: 30px;
+  font-weight: 500;
+}
+.rer-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(220, 213, 213);
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 1px rgba(220, 213, 213),
+    inset -1px -1px 1px rgba(220, 213, 213);
+}
+.rro {
+  padding: 10px;
+}
+.rth {
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgb(225, 198, 225);
+}
+td,
+tr {
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  background-color: rgb(225, 198, 225);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid rgb(141, 5, 175);
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+}
+.re-btn {
+  border-style: none;
+  background-color: orange;
+  color: white;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+}
+.re-name {
+  font-size: 25px;
+}

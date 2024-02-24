@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.s-container {
+  margin-top: -12px;
+  margin-left: 2px;
+
+  width: 120px;
+  height: 100vh;
+  background-color: rgb(26, 16, 26);
+}
+.s-icon {
+  font-size: 2em;
+  margin: 5px;
+}
+.s-menu-text {
+  text-align: center;
+  margin-right: 5px;
+}
+.s-menu-span {
+  font-size: 2em;
+}
+.s-logo,
+.s-menu-item {
+  margin-top: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.s-menu-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.s-menu-item:hover {
+  border-left: 6px solid rgb(255, 98, 255);
+  background-color: rgb(60, 27, 60);
+}
